@@ -4,10 +4,7 @@
  "description": "the trial setup environment",
  "main": ".server.js",
  "scripts": {
-  "babel": "babel --presets es2015 js/component.js -o build/main.bundle.js",
-  "start": "http-server",
-  "webpack": "webpack",
-  "test": "webpack"
+"test": "echo \"Error: no test specified\" && exit 1"
  },
  "repository": {
   "type": "git",
@@ -26,9 +23,7 @@
   "consolidate": "^0.14.4",
   "express": "^4.14.0",
   "handlebars": "^4.0.5",
-  "swig": "^1.4.2",
-  "git": "^0.1.5",
-  "http-server": "^0.11.1"
+  "swig": "^1.4.2"
  },
  "engines": {
   "node": "4.4.7"
