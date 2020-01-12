@@ -1,0 +1,67 @@
+{
+  "presets":["@babelrc-stage-0"]
+}
+
+{
+  "presets":["@babelrc-stage-1"]
+}
+
+{
+  "presets":["@babelrc-stage-2"]
+}
+
+{
+  "presets":["@babelrc-stage-3"]
+}
+
+{
+  "presets":["@babelrc-stage-4"]
+}
+
+{
+  "plugins": ["transform-remove-strict-mode"]
+}
+
+{
+  "presets": ["@babel/preset-react"]
+}
+
+{
+  "plugins": ["transform-class-constructor-call"]
+}
+
+{
+  "plugins": ["@babel/plugin-proposal-export-default-from"]
+}
+
+{
+  "plugins": ["@babel/plugin-syntax-class-properties"]
+}
+
+{
+  "plugins": ["transform-es2015-classes"]
+}
+
+{
+  "plugins": ["@babel/plugin-syntax-dynamic-import"]
+}
+
+{
+  "plugins": ["transform-decorators-legacy", "transform-class-properties"]
+}
+
+{
+  "presets": ["es2015"]
+}
+"plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-private-methods"
+  ]
+
+{
+  "plugins": [
+    ["transform-es2015-classes", {
+      "loose": true
+    }]
+  ]
+}
