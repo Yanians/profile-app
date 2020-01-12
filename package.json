@@ -2,7 +2,7 @@
  "name": "yani",
  "version": "1.0.1",
  "description": "the trial setup environment",
- "main": "./environment/component.js",
+ "main": ".server.js",
  "scripts": {
   "babel": "babel --presets es2015 js/component.js -o build/main.bundle.js",
   "start": "http-server",
